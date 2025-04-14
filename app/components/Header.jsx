@@ -13,23 +13,23 @@ function Header() {
       <p>UI Designer</p>
 
       <div className="flex gap-4 my-6">
-        <a
+        <Link
           href="#"
           target="_blank"
           className="text-white bg-[#7E7FFD] flex items-center gap-2 py-2 px-4 rounded-sm border border-[#7E7FFD] hover:bg-white hover:text-[#7E7FFD]"
         >
           <DownloadSimple size={22} />
           Download CV
-        </a>
+        </Link>
 
-        <a
-          href="#"
+        <Link
+          href="mailto:mhmdnoman01@gmail.com"
           target="_blank"
           className="hover:text-white hover:bg-[#7E7FFD] flex items-center gap-2 py-2 px-4 rounded-sm border border-[#7E7FFD] bg-white text-[#7E7FFD]"
         >
           <PaperPlaneTilt size={22} />
           Contact Now
-        </a>
+        </Link>
       </div>
 
       <p className="w-[709px] text-center">
