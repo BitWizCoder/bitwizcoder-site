@@ -6,7 +6,7 @@ function Project(props) {
   const data = props.data;
   return (
     <div className="w-[460px]">
-      <Link href={data.link}>
+      <Link target="_blank" href={data.link}>
         <Image
           src={data.image}
           width={460}
