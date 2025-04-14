@@ -13,7 +13,7 @@ const data = [
     title: "Opteryx - Startup Website",
     details:
       "A complete website for SaaS projects, featuring all essential inner pages.",
-    link: "#",
+    link: "https://www.figma.com/design/igNHt5d2D0QfIfpG6mpFDd/09---Opteryx-Startup-Website?node-id=0-1&t=EoxoVDzGzed33Ugk-1",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const data = [
     title: "Learnly - Education Website",
     details:
       "A complete education and course website with all essential sections, features & Pages.",
-    link: "#",
+    link: "https://www.figma.com/design/JKI5njmXbOeZeBZ32VwAiP/06---Learnly-Education-Website?t=EoxoVDzGzed33Ugk-1",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const data = [
     title: "PostCraft - Blog Template",
     details:
       "A modern personal blog template with sleek design and essential pages.",
-    link: "#",
+    link: "https://www.figma.com/design/gEhoDebcHNBZJH6q4tRYKI/14---PostCraft-Blog-Template?t=EoxoVDzGzed33Ugk-1",
   },
 ];
 

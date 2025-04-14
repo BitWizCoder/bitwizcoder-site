@@ -8,7 +8,7 @@ function Header() {
     <div className="flex flex-col items-center mt-14">
       <Image src="/dp.png" width={140} height={141} alt="Profile Picture" />
 
-      <p>Hello, I'm</p>
+      <p className="mt-4">Hello, I'm</p>
       <h1 className="text-2xl">Md. Noman</h1>
       <p>UI Designer</p>
 
@@ -32,7 +32,7 @@ function Header() {
         </Link>
       </div>
 
-      <p className="max-w-[709px] text-center mx-6">
+      <p className="max-w-[709px] text-center mx-6 mb-1">
         I'm a passionate UI Designer with hands-on experience crafting visually
         appealing and user-friendly interfaces for the web. With a strong
         foundation in{" "}

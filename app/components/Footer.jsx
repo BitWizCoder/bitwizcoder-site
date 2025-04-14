@@ -7,7 +7,7 @@ import SocialIcons from "./SocialIcons";
 function Footer() {
   return (
     <div className="container max-w-[954px] flex items-center flex-col gap-3 mx-auto mt-20 ">
-      <h2 className="text-3xl">Have a Project in Mind?</h2>
+      <h2 className="text-2xl md:text-3xl">Have a Project in Mind?</h2>
       <p>Let’s Work together.</p>
       <Link
         href="mailto:mhmdnoman01@gmail.com"

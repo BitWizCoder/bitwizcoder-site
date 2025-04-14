@@ -32,7 +32,7 @@ function SocialIcons() {
         {/* Facebook */}
         <Link href="https://www.facebook.com/BitWizCoder">
           <FacebookLogo
-            size={38}
+            size={30}
             weight={hoverStates.facebook ? "fill" : "regular"}
             className="transition-all duration-300 text-primary-500"
             onMouseEnter={() => toggleHover("facebook", true)}
@@ -43,7 +43,7 @@ function SocialIcons() {
         {/* X (Twitter) */}
         <Link href="https://x.com/BitWizCoder">
           <XLogo
-            size={38}
+            size={30}
             weight={hoverStates.x ? "fill" : "regular"}
             className="transition-all duration-300 text-primary-500"
             onMouseEnter={() => toggleHover("x", true)}
@@ -54,7 +54,7 @@ function SocialIcons() {
         {/* Dribbble */}
         <Link href="https://dribbble.com/BitWizCoder">
           <DribbbleLogo
-            size={38}
+            size={30}
             weight={hoverStates.dribbble ? "fill" : "regular"}
             className="transition-all duration-300 text-primary-500"
             onMouseEnter={() => toggleHover("dribbble", true)}
@@ -65,7 +65,7 @@ function SocialIcons() {
         {/* LinkedIn */}
         <Link href="https://www.linkedin.com/in/bitwizcoder/">
           <LinkedinLogo
-            size={38}
+            size={30}
             weight={hoverStates.linkedin ? "fill" : "regular"}
             className="transition-all duration-300 text-primary-500"
             onMouseEnter={() => toggleHover("linkedin", true)}
@@ -76,7 +76,7 @@ function SocialIcons() {
         {/* Behance */}
         <Link href="https://www.behance.net/BitWizCoder">
           <BehanceLogo
-            size={38}
+            size={30}
             weight={hoverStates.behance ? "fill" : "regular"}
             className="transition-all duration-300 text-primary-500"
             onMouseEnter={() => toggleHover("behance", true)}

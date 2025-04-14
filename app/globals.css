@@ -1,8 +1,24 @@
 @import "tailwindcss";
 
-
 @theme {
-    --color-primary-50: #FAF9FE; 
-    --color-primary-500: #7E7FFD;
-    --color-gray-500: #514B61;
+  --color-primary-50: #faf9fe;
+  --color-primary-500: #7e7ffd;
+  --color-gray-500: #514b61;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-fraunces);
+}
+
+p {
+  font-family: var(--font-instrument-sans);
 }

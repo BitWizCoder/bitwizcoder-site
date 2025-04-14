@@ -1,14 +1,14 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Fraunces, Instrument_Sans } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fraunces = Fraunces({
   subsets: ["latin"],
+  variable: "--font-fraunces",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const instrumentSans = Instrument_Sans({
   subsets: ["latin"],
+  variable: "--font-instrument-sans",
 });
 
 export const metadata = {
@@ -20,9 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${fraunces.variable} ${instrumentSans.variable} text-[#615a73]`}>
         {children}
       </body>
     </html>
