@@ -67,7 +67,7 @@ function Header() {
         <Link
           className="text-primary-500 italic hover:text-[#5859b1]"
           target="_blank"
-          href="https://www.behance.net/BitWizCoder"
+          href="https://github.com/BitWizCoder"
         >
           web development
         </Link>{" "}
