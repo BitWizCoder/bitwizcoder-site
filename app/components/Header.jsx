@@ -5,7 +5,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="flex flex-col items-center  mt-14">
+    <div className="flex flex-col items-center mt-14">
       <Image src="/dp.png" width={140} height={141} alt="Profile Picture" />
 
       <p>Hello, I'm</p>

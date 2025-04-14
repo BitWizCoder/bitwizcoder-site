@@ -5,6 +5,7 @@ const data = [
     title: "Gridpixels - Templates and design services",
     details:
       "Hight Quality Figma templates and designs services for SaaS Founders.",
+    link: "https://www.gridpixels.org/",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ const data = [
     title: "Opteryx - Startup Website",
     details:
       "A complete website for SaaS projects, featuring all essential inner pages.",
+    link: "#",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ const data = [
     title: "Learnly - Education Website",
     details:
       "A complete education and course website with all essential sections, features & Pages.",
+    link: "#",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ const data = [
     title: "PostCraft - Blog Template",
     details:
       "A modern personal blog template with sleek design and essential pages.",
+    link: "#",
   },
 ];
 
