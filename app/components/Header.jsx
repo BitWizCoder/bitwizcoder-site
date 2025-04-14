@@ -12,9 +12,9 @@ function Header() {
       <h1 className="text-2xl">Md. Noman</h1>
       <p>UI Designer</p>
 
-      <div className="flex gap-4 my-6">
+      <div className="flex flex-col sm:flex-row gap-4 my-6">
         <Link
-          href="#"
+          href="/CV - Noman.pdf"
           target="_blank"
           className="text-white bg-[#7E7FFD] flex items-center gap-2 py-2 px-4 rounded-sm border border-[#7E7FFD] hover:bg-white hover:text-[#7E7FFD]"
         >
@@ -32,12 +32,12 @@ function Header() {
         </Link>
       </div>
 
-      <p className="w-[709px] text-center">
+      <p className="max-w-[709px] text-center mx-6">
         I'm a passionate UI Designer with hands-on experience crafting visually
         appealing and user-friendly interfaces for the web. With a strong
         foundation in{" "}
         <Link
-          className="text-primary-500"
+          className="text-primary-500 italic hover:text-[#5859b1]"
           target="_blank"
           href="https://dribbble.com/BitWizCoder"
         >
@@ -45,7 +45,7 @@ function Header() {
         </Link>
         , Adobe{" "}
         <Link
-          className="text-primary-500"
+          className="text-primary-500 italic hover:text-[#5859b1]"
           target="_blank"
           href="https://www.behance.net/BitWizCoder"
         >
@@ -53,7 +53,7 @@ function Header() {
         </Link>{" "}
         and{" "}
         <Link
-          className="text-primary-500"
+          className="text-primary-500 italic hover:text-[#5859b1]"
           target="_blank"
           href="https://www.behance.net/BitWizCoder"
         >
@@ -62,10 +62,10 @@ function Header() {
         , I bring creativity and precision to every project.
       </p>
 
-      <p className="w-[709px] text-center ">
+      <p className="max-w-[709px] text-center mx-6">
         My additional skills in{" "}
         <Link
-          className="text-primary-500"
+          className="text-primary-500 italic hover:text-[#5859b1]"
           target="_blank"
           href="https://www.behance.net/BitWizCoder"
         >

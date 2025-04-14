@@ -5,7 +5,7 @@ import React from "react";
 function Project(props) {
   const data = props.data;
   return (
-    <div className="w-[460px]">
+    <div className="max-w-[460px] bg-primary-50">
       <Link target="_blank" href={data.link}>
         <Image
           src={data.image}
@@ -13,8 +13,10 @@ function Project(props) {
           height={299}
           alt="Profile Picture"
         />
-        <p className="text-2xl w-80">{data.title}</p>
-        <p className="w-80">{data.details}</p>
+        <div className="p-3">
+          <p className="text-2xl mb-2 hover:text-primary-500">{data.title}</p>
+          <p>{data.details}</p>
+        </div>
       </Link>
     </div>
   );

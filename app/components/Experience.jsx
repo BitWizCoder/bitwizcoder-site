@@ -3,8 +3,8 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="container max-w-[954px] mx-auto">
-      <h2 className="mx-auto mt-20 text-2xl mb-6 font-semibold">
+    <div className="container max-w-[954px] md:mx-auto px-4">
+      <h2 className="max-w-[954px] sm:mx-auto mt-20 text-2xl mb-6 font-semibold md:text-left text-center">
         Work Experience
       </h2>
       <div className="bg-primary-50 p-6 rounded-sm">
@@ -12,7 +12,7 @@ function Experience() {
         <p className="mb-2">
           @{" "}
           <Link
-            className="text-primary-500"
+            className="text-primary-500 italic hover:text-[#5859b1]"
             target="_blank"
             href="https://www.gridpixels.org/"
           >
