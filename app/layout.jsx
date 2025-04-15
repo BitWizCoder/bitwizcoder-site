@@ -12,9 +12,20 @@ const instrumentSans = Instrument_Sans({
 });
 
 export const metadata = {
-  title: "Md. Noman | Product & UI Designer",
-  description:
-    "I'm a passionate UI Designer with hands-on experience crafting visually appealing and user-friendly interfaces for the web. With a strong foundation in Figma, Adobe Photoshop and Illustrator, I bring creativity and precision to every project.",
+  openGraph: {
+    title: "Md. Noman | Product & UI Designer",
+    description:
+      "I'm a passionate UI Designer with hands-on experience crafting visually appealing and user-friendly interfaces for the web. With a strong foundation in Figma, Adobe Photoshop and Illustrator, I bring creativity and precision to every project.",
+    url: "https://bitwizcoder.vercel.app/",
+    siteName: "Md.Noman",
+    images: [
+      {
+        url: "https://bitwizcoder.vercel.app/OG-image.jpg",
+        width: 800,
+        height: 600,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
