@@ -20,7 +20,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${fraunces.variable} ${instrumentSans.variable} text-[#615a73]`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          href="/favicon.svg"
+          sizes="any"
+          type="image/svg+xml"
+        ></link>
+      </head>
+      <body
+        className={`${fraunces.variable} ${instrumentSans.variable} text-[#615a73]`}
+      >
         {children}
       </body>
     </html>
