@@ -33,7 +33,7 @@ function Header() {
       </div>
 
       <p className="max-w-[709px] text-center mx-6 mb-1">
-        I'm a passionate UI Designer with hands-on experience crafting visually
+        I'm a passionate UI Designer and a Front-End Developer with hands-on experience crafting visually
         appealing and user-friendly interfaces for the web. With a strong
         foundation in{" "}
         <Link
